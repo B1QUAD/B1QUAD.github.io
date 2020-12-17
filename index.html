@@ -9,6 +9,7 @@
   </head>
   <body>
     <h1>Global Average Temperatures 1880-2018</h1>
+    <p1>Made by David Puma 2020</p1>
     <canvas id="myChart" width="400" height="200"></canvas>
 
     <script>
@@ -19,6 +20,8 @@
 
       async function setup() {
         const ctx = document.getElementById('myChart').getContext('2d');
+        ctx.canvas.width  = window.innerWidth;
+        ctx.canvas.height = window.innerHeight;
         const dataTemps = await getData();
         const myChart = new Chart(ctx, {
           type: 'line',
