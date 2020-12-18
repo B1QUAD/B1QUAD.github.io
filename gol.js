@@ -1,7 +1,7 @@
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
 
-const resolution = 5;
+var resolution = 5;
 canvas.width = window.innerHeight;
 canvas.height = window.innerHeight;
 // canvas.width = 800;
@@ -23,11 +23,15 @@ let grid = buildGrid();
 requestAnimationFrame(update);
 
 function update() {
-  canvas.width = window.innerHeight;
-  canvas.height = window.innerHeight;
-  if(COLS != Math.floor(canvas.width / resolution) || ROWS != Math.floor(canvas.height / resolution)){
+  if(canvas.width != window.innerWidth || canvas.height != window.innerHeight){
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    if(canvas.width > 900){
+        resolution = Math.floor((canvas.height) * 1/75);
+        console.log(resolution);
+    }
     COLS = Math.floor(canvas.width / resolution);
-    ROWS = Math.floor(canvas.height / resolution);
+    ROWS = Math.floor(canvas.width / resolution);
     grid = buildGrid();
   }
 
