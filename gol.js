@@ -7,8 +7,8 @@ canvas.height = window.innerHeight;
 // canvas.width = 800;
 // canvas.height = 800;
 
-const COLS = Math.floor(canvas.width / resolution);
-const ROWS = Math.floor(canvas.height / resolution);
+var COLS = Math.floor(canvas.width / resolution);
+var ROWS = Math.floor(canvas.height / resolution);
 
 function buildGrid() {
   return new Array(COLS)
@@ -23,6 +23,14 @@ let grid = buildGrid();
 requestAnimationFrame(update);
 
 function update() {
+  canvas.width = window.innerHeight;
+  canvas.height = window.innerHeight;
+  if(COLS != Math.floor(canvas.width / resolution) || ROWS != Math.floor(canvas.height / resolution)){
+    COLS = Math.floor(canvas.width / resolution);
+    ROWS = Math.floor(canvas.height / resolution);
+    grid = buildGrid();
+  }
+
   grid = nextGen(grid);
   render(grid);
   requestAnimationFrame(update);
@@ -70,7 +78,7 @@ function render(grid) {
 
       ctx.beginPath();
       ctx.rect(col * resolution, row * resolution, resolution, resolution);
-      ctx.fillStyle = cell ? "black" : "white";
+      ctx.fillStyle = cell ? "white" : "#091833";
       ctx.fill();
       // ctx.stroke();
     }
