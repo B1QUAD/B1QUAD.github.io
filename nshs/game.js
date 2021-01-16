@@ -46,9 +46,16 @@ var gameList = [
     }
 ]
 
+var old = 0;
 function getGame() {
+    var temp = Math.floor(Math.random() * gameList.length);
 
-    return gameList[Math.floor(Math.random() * gameList.length)];
+    if(temp === old && old != null) {
+        return getGame();
+    } else {
+        old = temp;
+        return gameList[temp];
+    }
 }
 
 function set_text() {
