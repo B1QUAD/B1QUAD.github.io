@@ -15,10 +15,12 @@
   html {
     height: 100%
   }
+
   /* Background blur based on  https://stackoverflow.com/a/38543010 by user Krono*/
   body,
   .log::before {
     background: url('lib/bkg.png') 0 / cover fixed;
+    border-radius: 10px;
   }
 
   .log {
@@ -31,6 +33,7 @@
   .log p {
     margin: 15px;
   }
+
   .log::before {
     content: '';
     position: absolute;
