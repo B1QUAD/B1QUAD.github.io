@@ -20,7 +20,12 @@ var gameList = [
         "link": "https://www.battleshiponline.org/"
     },
     {
-        "name": "",
+        "name": "Pictionary",
+        "description": "Generate words to play pictionary over zoom",
+        "link": "https://www.randomlists.com/spanish-words?dup=false&qty=1"
+    },
+    {
+        "name": "Test, please ignore",
         "description": "",
         "link": ""
     }
