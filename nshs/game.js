@@ -17,7 +17,7 @@ var gameList = [
     {
         "name": "Online BattleShip",
         "description": "An online game of BattleShip to play with friends.",
-        "link": "https://www.battleshiponline.org/"
+        "link": "https://papergames.io/en/battleship"
     },
     {
         "name": "Pictionary",
