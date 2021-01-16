@@ -68,7 +68,7 @@ function jsToHTML() {
     game = getGame();
     var out;
     var i;
-    out = '<p>' + game.name + '</p> <p>' + game.description + '</p>';
+    out = '<p>Name: ' + game.name + '</p> <p>Description: ' + game.description + '</p>';
     out += '<p><a href=' + game.link + ' target="_blank" rel="noopener noreferrer">link</a></p>';
     // console.log(out);
     return out;
