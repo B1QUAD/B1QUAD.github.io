@@ -25,9 +25,24 @@ var gameList = [
         "link": "https://www.randomlists.com/spanish-words?dup=false&qty=1"
     },
     {
-        "name": "Test, please ignore",
-        "description": "",
-        "link": ""
+        "name": "Online Dominoes | playdrift.com",
+        "description": "Play dominoes online with your friends.",
+        "link": "https://dominoes.playdrift.com/"
+    },
+    {
+        "name": "Random Trivia | randomtriviagenerator.com",
+        "description": "Have fun playing trivia with your friends.",
+        "link": "https://www.randomtriviagenerator.com/#!/"
+    },
+    {
+        "name": "Settlers of Catan Online | catanuniverse.com",
+        "description": "Play Settlers of Catan with your friends",
+        "link": "https://catanuniverse.com/es/game/"
+    },
+    {
+        "name": "Card Games | cardgames.io",
+        "description": "Plenty of online card games, to get started pick a game and create a room for you and your friends to play multiplayer.",
+        "link": "https://cardgames.io"
     }
 ]
 
