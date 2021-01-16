@@ -6,12 +6,12 @@ var gameList = [
     },
     {
         "name": "Lotería",
-        "description": "The game of Lotería is commemorated in this google doodle",
+        "description": "The game of Lotería is commemorated in this Google doodle.",
         "link": "https://www.google.com/doodles/celebrating-loteria"
     },
     {
         "name": "Scattergories | Scattergoriesonline.net",
-        "description": "An online scattegories game in Spanish",
+        "description": "An online scattegories game in Spanish.",
         "link" : "https://scattergoriesonline.net/new-game.xhtml#lang=es"
     },
     {
@@ -21,7 +21,7 @@ var gameList = [
     },
     {
         "name": "Pictionary",
-        "description": "Generate words to play pictionary over zoom",
+        "description": "Generate words to play pictionary over Zoom.",
         "link": "https://www.randomlists.com/spanish-words?dup=false&qty=1"
     },
     {
