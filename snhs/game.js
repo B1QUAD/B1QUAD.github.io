@@ -1,47 +1,47 @@
 var gameList = [
     {
         "name": "Online Uno | Uno Freak",
-        "description": "Online Uno game hosted by Uno Freak.",
+        "description": "Juego Online de Uno organizado por Uno Freak.",
         "link": "https://play.unofreak.com/"
     },
     {
         "name": "Lotería",
-        "description": "The game of Lotería is commemorated in this Google doodle.",
+        "description": "El juego de Lotería se conmemora en este doodle de Google.",
         "link": "https://www.google.com/doodles/celebrating-loteria"
     },
     {
         "name": "Scattergories | Scattergoriesonline.net",
-        "description": "An online scattegories game in Spanish.",
+        "description": "Un juego en línea de scattegories en español.",
         "link" : "https://scattergoriesonline.net/new-game.xhtml#lang=es"
     },
     {
         "name": "Online BattleShip",
-        "description": "An online game of BattleShip to play with friends.",
+        "description": "Un juego en línea de Battleship para jugar con sus amigos.",
         "link": "https://papergames.io/en/battleship"
     },
     {
         "name": "Pictionary",
-        "description": "Generate words to play pictionary over Zoom.",
+        "description": "Genera palabras para jugar pictionary sobre Zoom.",
         "link": "https://www.randomlists.com/spanish-words?dup=false&qty=1"
     },
     {
         "name": "Online Dominoes | playdrift.com",
-        "description": "Play dominoes online with your friends.",
+        "description": "Juega al dominó en línea con sus amigos.",
         "link": "https://dominoes.playdrift.com/"
     },
     {
         "name": "Random Trivia | randomtriviagenerator.com",
-        "description": "Have fun playing trivia with your friends.",
+        "description": "Diviértase jugando trivia con sus amigos.",
         "link": "https://www.randomtriviagenerator.com/#!/"
     },
     {
         "name": "Settlers of Catan Online | catanuniverse.com",
-        "description": "Play Settlers of Catan with your friends",
+        "description": "Juega el juego de Settlers of Catan en línea",
         "link": "https://catanuniverse.com/es/game/"
     },
     {
         "name": "Card Games | cardgames.io",
-        "description": "Plenty of online card games, to get started pick a game and create a room for you and your friends to play multiplayer.",
+        "description": "Un montón de juegos de cartas en línea. Para empezar, elige un juego y crea un \'cuarto\' para que tú y tus amigos pueden jugar.",
         "link": "https://cardgames.io"
     }
 ]
