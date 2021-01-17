@@ -66,10 +66,10 @@ function set_text() {
 function jsToHTML() {
 
     game = getGame();
-    var out;
+    var out = "<!-- The following code was injected by game.js => jsToHTML-->";
     var i;
-    out = '<p>Name: ' + game.name + '</p> <p>Description: ' + game.description + '</p>';
-    out += '<p><a href=' + game.link + ' target="_blank" rel="noopener noreferrer">link</a></p>';
+    out += '<p>Name: ' + game.name + '</p> <p>Description: ' + game.description + '</p>';
+    out += '<p><a href=' + game.link + ' target="_blank" rel="noopener noreferrer">link</a></p> <!-- End of injected HTML -->';
     // console.log(out);
     return out;
 }
